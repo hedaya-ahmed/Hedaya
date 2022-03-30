@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        form{
+            border: dashed rgb(135,255,100);
+            display: inline-block;
+            padding: 20px;
+           display: inline-grid;
+         
+        }
+        .pract{
+            padding:5px;
+        }
+        .pract label{
+            padding-right:10px;
+        }
+        button{
+            background-color: rgba(255, 127, 80, 0.527);
+            border-radius: 5px;
+            font-weight: bold;
+            padding:5px;
+        }
+        .buttons{
+    display:flex;
+    flex-direction: row;
+    padding-top: 10px;  
+    }
+    .sub{
+        margin-right: 30px;
+    }
+    
+    </style>
+    <form action="">
+        <div class="pract">
+            <label for="">Name:</label>
+                <input type="text">
+        </div>
+        <div class="pract">
+            <label for="">Status:</label>
+                <input type="text">
+        </div>
+        <div class="buttons">
+            <div class="sub">
+            <button type="submit">Submit</button>
+        </div>
+        <div class="res">
+            <button type="reset">Reset</button>
+        </div>
+        </div>
+    </form>
+</body>
+</html>
